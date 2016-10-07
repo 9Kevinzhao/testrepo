@@ -2,12 +2,17 @@
 //You should have 2 instance variables and 1 instance function included.
 
 funciton octocat(N,A)
-var octocat.Name = N
+{
+  var octocat.Name = N
 var Octocat.Arms = A
 var Octocat.Slap = function {
-  for(var i=0;i<A;i++)
+  for(var i=0;i<A;i++){
+    console.log("slap")
+  }
+}
 }
 
+var 
 
 
 
